@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "657943992610",
+    "firebase_url": "https://projectlit-86257.firebaseio.com",
+    "project_id": "projectlit-86257",
+    "storage_bucket": "projectlit-86257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657943992610:android:01df72fdc1e816a9",
+        "android_client_info": {
+          "package_name": "com.example.anil.projectlit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657943992610-q762c35f7jk7rfrrgv4b573538bjjn5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF1sdgB0vSCXh4ca1HUnmzBXxUiEa0p4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

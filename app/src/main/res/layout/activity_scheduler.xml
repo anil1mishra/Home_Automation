@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anil.projectlit.Scheduler">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvs1"
+        android:layout_centerHorizontal="true"
+        android:text="Device Scheduler"
+        android:textSize="35dp"
+        android:layout_marginTop="45dp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@id/tvs1"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp">
+    </Spinner>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_marginTop="61dp"
+        android:text="Start-time"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End-time"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="46dp"
+        android:layout_marginLeft="45dp"/>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:inputType="time"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:layout_alignLeft="@+id/editText2"
+        android:inputType="time"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="save"
+        android:layout_below="@id/editText3"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
